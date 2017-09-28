@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-ADDRESS = 'http://fenix.webhop.me'
+ADDRESS = 'localhost'
 USER_SERVICE = ADDRESS+':3000'
 MESSAGE_SERVICE = ADDRESS+':4000'
 
