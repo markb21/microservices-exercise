@@ -6,4 +6,4 @@ ADD Gemfile /myapp/Gemfile
 ADD Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
 ADD . /myapp
-RUN rake db:migrate
+RUN bundle exec rake db:migrate
